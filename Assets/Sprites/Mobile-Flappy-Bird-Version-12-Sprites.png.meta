@@ -393,27 +393,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile-Flappy-Bird-Version-12-Sprites_11
-      rect:
-        serializedVersion: 2
-        x: 329
-        y: 428
-        width: 58
-        height: 25
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 78f01570bf86bd04db2e2974ae7f94ea
-      internalID: 684365459
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Mobile-Flappy-Bird-Version-12-Sprites_12
       rect:
         serializedVersion: 2
@@ -430,27 +409,6 @@ TextureImporter:
       bones: []
       spriteID: c510d7cf9d673fe4b8f531b1560a557d
       internalID: 1976422615
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mobile-Flappy-Bird-Version-12-Sprites_13
-      rect:
-        serializedVersion: 2
-        x: 449
-        y: 432
-        width: 42
-        height: 21
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b69fa9278749056428866e1783ac7da3
-      internalID: -1019726803
       vertices: []
       indices: 
       edges: []
@@ -1430,7 +1388,7 @@ TextureImporter:
         width: 3
         height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1913,7 +1871,7 @@ TextureImporter:
         width: 3
         height: 3
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1934,7 +1892,7 @@ TextureImporter:
         width: 1
         height: 1
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

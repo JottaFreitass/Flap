@@ -46,8 +46,8 @@ public class Player : MonoBehaviour
 
     IEnumerator Morte()
     {
-        yield return new WaitForSeconds(0.3f);
-        SceneManager.LoadScene("Menu");
+        yield return new WaitForSeconds(0.25f);
+        SceneManager.LoadScene("Morte");
     }
 
     void OnCollisionEnter2D(Collision2D colisao)
