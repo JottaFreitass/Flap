@@ -17,10 +17,9 @@ public class Game_Controller : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        instance = this;
-        scoreFinal.text = PlayerPrefs.GetInt("scoreFinal").ToString();
+        scoreFinal.text = PlayerPrefs.GetInt("scoreFinal", 0).ToString();
 
-        scoreRun.text = PlayerPrefs.GetInt("scoreAtual").ToString();
+        scoreRun.text = PlayerPrefs.GetInt("scoreAtual", 0).ToString();
     }
 
     // Update is called once per frame
