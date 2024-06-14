@@ -15,6 +15,7 @@ public class Player : MonoBehaviour
     {
         rig = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        vida = 1;
     }
 
     // Update is called once per frame
@@ -55,13 +56,13 @@ public class Player : MonoBehaviour
         if (colisao.gameObject.CompareTag("Cano"))
         {
             Debug.Log("Perdeu vida!");
-            vida = vida - 1;
+            vida =0;
         }
 
         if (colisao.gameObject.CompareTag("Chao"))
         {
             Debug.Log("Perdeu vida!");
-            vida = vida - 1;
+            vida = 0;
         }
     }
 }
